@@ -1,0 +1,39 @@
+{% extends 'AppBundle::layout.html.twig' %}
+{% block hero %}
+    <div class="pageTitleArea  animated">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="pageTitle"  id="particles-js">
+                        <ul class="pageIndicate">
+                            <li><a href="{{ path('homepage') }}">home</a></li>
+                            <li><a href="{{ path('aboutpage') }}">about</a></li>
+                        </ul>
+                        <div class="h2">about as</div>
+                        <span class="pageTitleBar"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <!-- ** start about **  -->
+    <div class="aboutArea spt90  animated">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="aboutImg"><img src="img/13.jpg" alt=""></div>
+                    <div class="aboutContent">
+                        <div class="aboutTitle">ABOUT</div>
+                        <span class="aboutBar"></span>
+                        <p>Autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla acilisis at vero eros et accumsan et odio dignissim qui blanditpraesent luptatum zzril delenit augue duis dolor te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option ustocongue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habenclaritatem insitam; est usus legentis in iis.</p>
+                        <p>Autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla acilisis at vero eros et accumsan odio dignissim qui blanditpraesent luptatum zzril delenit augue duis dolor te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ** end about **  -->
+{% endblock %}

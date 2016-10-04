@@ -1,0 +1,318 @@
+{% extends 'AppBundle::layout.html.twig' %}
+
+{% block hero %}
+    <div class="homeArea v2 animated">  <!-- ** start homeArea **  -->
+        <div class="container">
+            <div class="hero_slider owl-carousel">
+                <div class="single_hero_slide">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-5">
+                            <div class="homeImg"><img src="img/19.png" alt=""></div>
+                        </div>
+                        <div class="col-lg-6 col-md-7">
+                            <div class="homeSlider">
+                                <div class="singleHomeSlide">
+                                    <span class="topTxt">Modern &nbsp;  - &nbsp;  Secure &nbsp; - &nbsp;  Reliable</span>
+                                    <span class="h1">WE PROVIDE  PROFFESIONAL <br>WEB HOSTING SERVICES</span>
+                                    <p>Nam liber temor cum soluta nobis elei option cngue nihil imperdiet <br>doming id quod mazim placerat fa possim assum.</p>
+                                    <div class="homeBtns">
+                                        <a href="#" class="Btn homeBtn">GET HOSTING NOW</a>
+                                        <a href="{{ path('contactpage') }}" class="Btn homeBtn">CONTACT US</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="single_hero_slide">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-5">
+                            <div class="homeImg"><img src="img/23.png" alt=""></div>
+                        </div>
+                        <div class="col-lg-6 col-md-7">
+                            <div class="homeSlider">
+                                <div class="singleHomeSlide">
+                                    <span class="topTxt">Modern &nbsp;  - &nbsp;  Secure &nbsp; - &nbsp;  Reliable</span>
+                                    <span class="h1">BEST WEB HOSTING SERVICE<br>FOR YOUR WEBSITE</span>
+                                    <p>Nam liber temor cum soluta nobis elei option cngue nihil imperdiet <br>doming id quod mazim placerat fa possim assum.</p>
+                                    <div class="homeBtns">
+                                        <a href="#" class="Btn homeBtn">GET HOSTING NOW</a>
+                                        <a href="{{ path('contactpage') }}" class="Btn homeBtn">CONTACT US</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+
+    <!-- ** start domainSearchArea **  -->
+    <div class="domainSearchArea animated">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="doSearchW">
+                        <div class="h3 searchTitle">Looking for a premium quality Domain Name? <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia <br> aliquam tempora deleniti quibusdam labore quo fuga.</p></div>
+
+                        <form action="#" class="domainSearch">
+                            <div class="inputTop">
+                                <input type="search" placeholder="Enter your domain name">
+                                <input type="submit" value="&#xedef;">
+                            </div>
+                            <div class="inputCheck">
+                                <div class="singleCheck">
+                                    <input type="checkbox" name="net"  id="net">
+                                    <label for="net"></label>
+                                    <span>.net</span>
+                                </div>
+                                <div class="singleCheck">
+                                    <input type="checkbox" name="com" id="com">
+                                    <label for="com"></label>
+                                    <span>.com</span>
+                                </div>
+                                <div class="singleCheck">
+                                    <input type="checkbox" name="org" id="org">
+                                    <label for="org"></label>
+                                    <span>.org</span>
+                                </div>
+                                <div class="singleCheck">
+                                    <input type="checkbox" name="us" id="us">
+                                    <label for="us"></label>
+                                    <span>.us</span>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ** end domainSearchArea **  -->
+
+    <!-- ** start serviceArea **  -->
+    <div class="serviceArea spt90 animated">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="sectionTitle">
+                        <span class="h5">Choose Your</span>
+                        <div class="h2">Best Services</div>
+                        <span class="secTitleBar"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row serviceRow">
+                <div class="col-md-3 col-sm-6 animated">
+                    <div class="singleService">
+                        <div class="serviceImg"><img src="img/icons/service01.png" alt=""></div>
+                        <div class="serviceContent">
+                            <div class="h5">Unlimited Domain Hosting</div>
+                            <p>Tuis aute vel eum iriure dolor in  <br> hendrerit inject vulputate velit esse molestie new deep.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 animated">
+                    <div class="singleService">
+                        <div class="serviceImg"><img src="img/icons/service02.png" alt=""></div>
+                        <div class="serviceContent">
+                            <div class="h5">Backup & Storage</div>
+                            <p>Tuis aute vel eum iriure dolor in  <br> hendrerit inject vulputate velit esse molestie new deep.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 animated">
+                    <div class="singleService">
+                        <div class="serviceImg"><img src="img/icons/service03.png" alt=""></div>
+                        <div class="serviceContent">
+                            <div class="h5">24/7 Live Support</div>
+                            <p>Tuis aute vel eum iriure dolor in  <br> hendrerit inject vulputate velit esse molestie new deep.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 animated">
+                    <div class="singleService">
+                        <div class="serviceImg"><img src="img/icons/service04.png" alt=""></div>
+                        <div class="serviceContent">
+                            <div class="h5">Customizing</div>
+                            <p>Tuis aute vel eum iriure dolor in  <br> hendrerit inject vulputate velit esse molestie new deep.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ** end serviceArea **  -->
+
+    <!-- ** start cta **  -->
+    <div class="cta animated">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="ctaContent">
+                        <div class="h3 ctaTitle">Start Building Your Website Today!</div>
+                        <a href="#" class="ctaBtn Btn">GET HOSTING NOW</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ** end cta **  -->
+
+    <!-- ** start hostingPlan **  -->
+    <div class="hostingArea sp90 animated">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="sectionTitle">
+                        <span class="h5">Choose Your</span>
+                        <div class="h2">Hosting Plans</div>
+                        <span class="secTitleBar"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hostingPlan">
+            <div class="singlePlan">
+                <div class="h4">SHARED HOSTING</div>
+                <p>wisi enim ad minim veniam, quis nosrud ex erci tation ullamcorper suscipit loiortis nisl ut aliqcom modo consequat.Duis aue</p>
+                <div class="btnWrep">
+                    <a href="#" class="readMore Btn">read more</a>
+                </div>
+            </div>
+            <div class="singlePlan active">
+                <div class="h4">CLOUD HOSTING</div>
+                <p>wisi enim ad minim veniam, quis nosrud ex erci tation ullamcorper suscipit loiortis nisl ut aliqcom modo consequat.Duis aue</p>
+                <div class="btnWrep">
+                    <a href="#" class="readMore Btn">read more</a>
+                </div>
+            </div>
+            <div class="singlePlan">
+                <div class="h4">DEDICATED HOSTING</div>
+                <p>wisi enim ad minim veniam, quis nosrud ex erci tation ullamcorper suscipit loiortis nisl ut aliqcom modo consequat.Duis aue</p>
+                <div class="btnWrep">
+                    <a href="#" class="readMore Btn">read more</a>
+                </div>
+            </div>
+            <div class="singlePlan">
+                <div class="h4">RESELLER HOSTING</div>
+                <p>wisi enim ad minim veniam, quis nosrud ex erci tation ullamcorper suscipit loiortis nisl ut aliqcom modo consequat.Duis aue</p>
+                <div class="btnWrep">
+                    <a href="#" class="readMore Btn">read more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ** end hostingPlan **  -->
+
+
+    <!-- ** start testimonial-2 **  -->
+    <div class="testimonialArea2 sptb90">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="sectionTitle">
+                        <span class="h5">testimonials</span>
+                        <div class="h2">WHAT PEOPLE SAYS</div>
+                        <span class="secTitleBar"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="tstSlider2 owl-carousel">
+                        <div class="singleSlide">
+                            <div class="slideContent">
+                                <div class="tstImg">
+                                    <img src="img/20.jpg" alt="">
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam odit unde, magnam, ipsam voluptatum magni. Quod, ea fuga Laborum suscipit!</p>
+                                <div class="clientDesc">
+                                    <div class="h4">Devid Cameron</div>
+                                    <span class="position">Student</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="singleSlide">
+                            <div class="slideContent">
+                                <div class="tstImg">
+                                    <img src="img/21.jpg" alt="">
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam odit unde, magnam, ipsam voluptatum magni. Quod, ea fuga Laborum suscipit!</p>
+                                <div class="clientDesc">
+                                    <div class="h4">Mushfiq Ahmed</div>
+                                    <span class="position">Student</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="singleSlide">
+                            <div class="slideContent">
+                                <div class="tstImg">
+                                    <img src="img/22.jpg" alt="">
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam odit unde, magnam, ipsam voluptatum magni. Quod, ea fuga Laborum suscipit!</p>
+                                <div class="clientDesc">
+                                    <div class="h4">Jhon Doe</div>
+                                    <span class="position">Student</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ** start testimonial-2 **  -->
+
+
+    <!-- ** start BrandArea **  -->
+    <div class="brandArea animated">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="brandSlider owl-carousel">
+                        <div class="singleBrand">
+                            <img src="img/07.jpg" alt="">
+                        </div>
+                        <div class="singleBrand">
+                            <img src="img/08.jpg" alt="">
+                        </div>
+                        <div class="singleBrand">
+                            <img src="img/09.jpg" alt="">
+                        </div>
+                        <div class="singleBrand">
+                            <img src="img/10.jpg" alt="">
+                        </div>
+                        <div class="singleBrand">
+                            <img src="img/11.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ** end BrandArea **  -->
+
+    <!-- ** start Newsletter **  -->
+    <div class="newsletterArea animated bg-ptrn">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="newsletter">
+                        <div class="h3">SUBSCRIBE TO OUR NEWSLETTER</div>
+                        <form action="#" class="nw">
+                            <input type="email" placeholder="Your Email">
+                            <input type="submit" value="subscribe">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ** end Newsletter **  -->
+
+{% endblock %}
