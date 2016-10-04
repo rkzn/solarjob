@@ -1,0 +1,38 @@
+{% extends 'AppBundle::layout.html.twig' %}
+{% block hero %}
+
+    <div class="pageTitleArea animated" id="particles-js">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="pageTitle">
+                        <ul class="pageIndicate">
+                            <li><a href="{{ path('homepage') }}">home</a></li>
+                        </ul>
+                        <div class="h2">user area</div>
+                        <span class="pageTitleBar"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+{% block content %}
+    <div class="registrationArea sp90 bg-ptrn animated">
+    <div class="container">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        {% if app.request.hasPreviousSession %}
+            {% for type, messages in app.session.flashbag.all() %}
+                {% for message in messages %}
+                    <div class="alert alert-{{ type }}">
+                        {{ message }}
+                    </div>
+                {% endfor %}
+            {% endfor %}
+        {% endif %}
+
+        {% block fos_user_content %}{% endblock %}
+    </div>
+    </div>
+    </div>
+{% endblock %}

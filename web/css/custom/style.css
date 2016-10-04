@@ -2468,15 +2468,15 @@ footer {
     .registrationArea .registrationForm .regFormDt .inputGroup input:focus, .registrationArea .registrationForm .regFormDt .inputGroup .mapArea .contactForm textarea:focus, .mapArea .contactForm .registrationArea .registrationForm .regFormDt .inputGroup textarea:focus, .registrationArea .registrationForm .regFormDt .inputGroup input:hover, .registrationArea .registrationForm .regFormDt .inputGroup .mapArea .contactForm textarea:hover, .mapArea .contactForm .registrationArea .registrationForm .regFormDt .inputGroup textarea:hover {
       border-color: #f9bf3b;
       box-shadow: 0 0 2px #f9bf3b; }
-    .registrationArea .registrationForm .regFormDt .inputGroup input[type=password], .registrationArea .registrationForm .regFormDt .inputGroup .mapArea .contactForm textarea[type=password], .mapArea .contactForm .registrationArea .registrationForm .regFormDt .inputGroup textarea[type=password] {
+    .registrationArea .registrationForm .regFormDt .inputGroup .passInput input[type=password], .registrationArea .registrationForm .regFormDt .inputGroup .mapArea .contactForm textarea[type=password], .mapArea .contactForm .registrationArea .registrationForm .regFormDt .inputGroup textarea[type=password] {
       width: 48%;
       float: left; }
-      .registrationArea .registrationForm .regFormDt .inputGroup input[type=password]:nth-last-of-type(2), .registrationArea .registrationForm .regFormDt .inputGroup .mapArea .contactForm textarea[type=password]:nth-last-of-type(2), .mapArea .contactForm .registrationArea .registrationForm .regFormDt .inputGroup textarea[type=password]:nth-last-of-type(2) {
+      .registrationArea .registrationForm .regFormDt .inputGroup .passInput input[type=password]:nth-last-of-type(2), .registrationArea .registrationForm .regFormDt .inputGroup .mapArea .contactForm textarea[type=password]:nth-last-of-type(2), .mapArea .contactForm .registrationArea .registrationForm .regFormDt .inputGroup textarea[type=password]:nth-last-of-type(2) {
         margin-right: 4%; }
       @media only screen and (min-width: 0px) and (max-width: 767px) {
-        .registrationArea .registrationForm .regFormDt .inputGroup input[type=password], .registrationArea .registrationForm .regFormDt .inputGroup .mapArea .contactForm textarea[type=password], .mapArea .contactForm .registrationArea .registrationForm .regFormDt .inputGroup textarea[type=password] {
+        .registrationArea .registrationForm .regFormDt .inputGroup .passInput input[type=password], .registrationArea .registrationForm .regFormDt .inputGroup .mapArea .contactForm textarea[type=password], .mapArea .contactForm .registrationArea .registrationForm .regFormDt .inputGroup textarea[type=password] {
           width: 100%; }
-          .registrationArea .registrationForm .regFormDt .inputGroup input[type=password]:nth-last-of-type(2), .registrationArea .registrationForm .regFormDt .inputGroup .mapArea .contactForm textarea[type=password]:nth-last-of-type(2), .mapArea .contactForm .registrationArea .registrationForm .regFormDt .inputGroup textarea[type=password]:nth-last-of-type(2) {
+          .registrationArea .registrationForm .regFormDt .inputGroup .passInput input[type=password]:nth-last-of-type(2), .registrationArea .registrationForm .regFormDt .inputGroup .mapArea .contactForm textarea[type=password]:nth-last-of-type(2), .mapArea .contactForm .registrationArea .registrationForm .regFormDt .inputGroup textarea[type=password]:nth-last-of-type(2) {
             margin-right: 0; } }
   .registrationArea .registrationForm .regFormDt .inputGroup.btm .clearfix input, .registrationArea .registrationForm .regFormDt .inputGroup.btm .clearfix .mapArea .contactForm textarea, .mapArea .contactForm .registrationArea .registrationForm .regFormDt .inputGroup.btm .clearfix textarea {
     width: 48%;
