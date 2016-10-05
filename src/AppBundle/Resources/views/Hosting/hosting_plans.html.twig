@@ -1,0 +1,44 @@
+{% extends 'AppBundle::layout.html.twig' %}
+{% block hero %}
+
+    <div class="pageTitleArea animated" id="particles-js">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="pageTitle">
+                        <ul class="pageIndicate">
+                            <li><a href="{{ path('app_home_page') }}">home</a></li>
+                        </ul>
+                        <div class="h2">hosting</div>
+                        <span class="pageTitleBar"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+<div class="row priceRow">
+    {% for hostingplan in hostingplans %}
+        <div class="col-md-3 col-sm-6">
+            <div class="singlePrice active">
+                <div class="priceHead">
+                    <div class="h5">{{ hostingplan.plan }}</div>
+                    <div style="background-image: url(img/icons/price01.png);" class="priceImg"></div>
+                </div>
+                <ul class="priceContent">
+                    <li>Web Space: {{ hostingplan.disksize }} MB </li>
+                    <li>Bandwidth: {{ hostingplan.bandwidth }} MB </li>
+                </ul>
+                <div class="priceFoot">
+                    <div class="price"><span>${{ hostingplan.price }}/</span>mo</div>
+                    <a href="#{{ hostingplan.id }}" class="priceBtn Btn">Order Now</a>
+                </div>
+            </div>
+        </div>
+
+    {% endfor %}
+
+</div>
+{% endblock %}

@@ -1,4 +1,8 @@
 solarjob
 ========
+Create database
 
-A Symfony project created on October 3, 2016, 6:19 pm.
+composer install
+
+php app/console doctrine:schema:update --force
+php app/console doctrine:fixtures:load

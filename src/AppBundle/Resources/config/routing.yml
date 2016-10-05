@@ -1,0 +1,20 @@
+app_home_page:
+    path:  /
+    defaults: { _controller: 'AppBundle:Default:index' }
+
+app_about_page:
+    path:  /
+    defaults: { _controller: 'AppBundle:Default:about' }
+
+app_contact_page:
+    path:  /
+    defaults: { _controller: 'AppBundle:Default:contact' }
+
+app_hosting_page:
+    path:  /hosting
+    defaults: { _controller: 'AppBundle:Hosting:index' }
+
+app_hosting_plans:
+    path:  /hosting/{plan}
+    defaults: { _controller: 'AppBundle:Hosting:plan' }
+    requirements: { plan: "^[a-z]{4,16}$" }

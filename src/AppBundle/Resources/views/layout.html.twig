@@ -78,7 +78,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-3 col-xs-6">
-                            <a href="{{ path('homepage') }}" class="logo">Solarjob</a>
+                            <a href="{{ path('app_home_page') }}" class="logo">Solarjob</a>
                         </div>
                         <div class="col-sm-9 col-xs-6">
                             <div class="navbar-header">
@@ -89,18 +89,18 @@
                             </div>
                             <nav id="navbar" class="navbar-collapse collapse">
                                 <ul class="nav navbar-nav">
-                                    <li><a href="{{ path('homepage') }}">Home</a></li>
-                                    <li><a href="{{ path('aboutpage') }}">About</a></li>
-                                    <li><a href="#">Hosting plans</a>
+                                    <li><a href="{{ path('app_home_page') }}">Home</a></li>
+                                    <li><a href="{{ path('app_about_page') }}">About</a></li>
+                                    <li><a href="{{ path('app_hosting_page') }}">Hosting plans</a>
                                         <ul class="dropdown-menu">
-                                            <li><a href="#shared">Shared Hosting</a></li>
-                                            <li><a href="#cloud">Cloud Hosting</a></li>
-                                            <li><a href="#vpn">Vpn Hosting</a></li>
-                                            <li><a href="#reseller">Reseller Hosting</a></li>
+                                            <li><a href="{{ path('app_hosting_plans', {'plan': 'shared'}) }}">Shared Hosting</a></li>
+                                            <li><a href="{{ path('app_hosting_plans', {'plan': 'cloud'}) }}">Cloud Hosting</a></li>
+                                            <li><a href="{{ path('app_hosting_plans', {'plan': 'dedicated'}) }}">Dedicated Hosting</a></li>
+                                            <li><a href="{{ path('app_hosting_plans', {'plan': 'reseller'}) }}">Reseller Hosting</a></li>
                                         </ul>
                                     </li>
 
-                                    <li><a href="{{ path('contactpage') }}">Contact</a></li>
+                                    <li><a href="{{ path('app_contact_page') }}">Contact</a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -153,10 +153,10 @@
                             <div class="widget footer_widget small">
                                 <div class="widget_title">Important Linsks</div>
                                 <ul>
-                                    <li><a href="{{ path('homepage') }}">Home</a></li>
-                                    <li><a href="{{ path('homepage') }}">Hosting Plan</a></li>
-                                    <li><a href="{{ path('homepage') }}">Domain</a></li>
-                                    <li><a href="{{ path('homepage') }}">Service</a></li>
+                                    <li><a href="{{ path('app_home_page') }}">Home</a></li>
+                                    <li><a href="{{ path('app_home_page') }}">Hosting Plan</a></li>
+                                    <li><a href="{{ path('app_home_page') }}">Domain</a></li>
+                                    <li><a href="{{ path('app_home_page') }}">Service</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -164,7 +164,7 @@
                             <div class="widget footer_widget small">
                                 <div class="widget_title">Support</div>
                                 <ul>
-                                    <li><a href="{{ path('contactpage') }}">Contact Us</a></li>
+                                    <li><a href="{{ path('app_contact_page') }}">Contact Us</a></li>
                                     <li><a href="#">Live Chat</a></li>
                                     <li><a href="#">Request a Quote</a></li>
                                     <li><a href="#">Reseller hosting</a></li>

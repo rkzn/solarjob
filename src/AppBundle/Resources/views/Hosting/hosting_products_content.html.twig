@@ -1,0 +1,11 @@
+<div class="hostingPlan">
+    {% for product in products %}
+    <div class="singlePlan">
+        <div class="h4">{{ product.name }} HOSTING</div>
+        <p>wisi enim ad minim veniam, quis nosrud ex erci tation ullamcorper suscipit loiortis nisl ut aliqcom modo consequat.Duis aue</p>
+        <div class="btnWrep">
+            <a href="{{ path('app_hosting_plans', {'plan': product.name}) }}" class="readMore Btn">read more</a>
+        </div>
+    </div>
+    {% endfor %}
+</div>
