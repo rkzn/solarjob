@@ -10,3 +10,5 @@ Instructions to run the app:
 * run `php app/console doctrine:fixtures:load`
 * run `php app/console server:run 127.0.0.1:8001`
 * open http://127.0.0.1:8001/app_dev.php/ in your browser
+
+* demo http://solarjob.diamond.kazansky.su
