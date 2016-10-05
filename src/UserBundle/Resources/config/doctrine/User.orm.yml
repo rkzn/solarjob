@@ -1,4 +1,4 @@
-AppBundle\Entity\User:
+UserBundle\Entity\User:
     type:  entity
     table: users
     id:
