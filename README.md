@@ -12,3 +12,5 @@ Instructions to run the app:
 * open http://127.0.0.1:8001/app_dev.php/ in your browser
 
 * demo http://solarjob.diamond.kazansky.su
+
+* login/pass `admin / 123456`
